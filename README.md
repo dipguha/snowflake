@@ -57,18 +57,55 @@
       - Warehouse Type: Standard/Snowparl Optimized(Preview)  
 
 ## Lecture 10: Setting up warehouse using SQL
-
+- Create warehouse using SQL command
 
 ## Lecture 11: Scaling policy
-
+- Additional clusters based on workload demand to avoid queries being queued
+- More users then use multi-cluster
+- More complex queries use bigger warehouse
+- Scaling policy
+  - Standard (default)
+    - starts immediately when a query is queued or the system detects there are more queries that can be served by currently availabe warehouses. 
+    - Checks every minute and shuts down after 2-3 consecutive attempts
+  - Economy
+    - Keeping running the cluster fully loaded.
+    - New cluster starts if existing cluster is fully busy for at least next 6 minutes
+    - Shuts down after 5-6 consecutive checks
 
 ## Lecture 12: Exploring tables and databases
+- Database (add privilege) - role - privilege
+- Create schema
+  - INFORMATION_SCHEMA and PUBLIC are default ones for any database
+  
+## Lecture 13: Loading data in Snowflake
 
 
-## Lecture 7: Getting to know the interface
+## Lecture 14: What is a Data warehouse
 
 
-## Lecture 7: Getting to know the interface
+## Lecture 15: Cloud computing
+
+
+## Lecture 16: Snowflake editions
+
+
+## Lecture 17: Snowflake pricing
+
+
+## Lecture 18: Monitor usage
+
+## Lecture 19: Roles in Snowflake
+
+## Lecture 14: What is a Data warehouse
+
+## Lecture 14: What is a Data warehouse
+
+
+
+
+
+
+
 
 
 
