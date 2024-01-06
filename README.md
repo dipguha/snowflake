@@ -139,15 +139,78 @@
   - Sys Admin: Create warehouse, databases and more objects
     - Custom Role
 
-## Lecture 14: What is a Data warehouse
+## Lecture 142: Key concepts
+- Access control: who can access and perform operations on objects
+  - Discretionary access control
+    - Each object has an owner who can grant access to that object
+  - Role based access control
+    - Access privileges are assigned to roles which are in turn assigned to users
+  - Account objects
+    - User
+    - Role
+    - Warehouse
+    - Database
+      - Schema objects
+        - Table
+        - View
+        - Stages
+        - Integration
+  - Each object owned by a single role (multiple users)
+    - Owner (role) has all privileges
 
-## Lecture 14: What is a Data warehouse
+## Lecture 143: Roles overview
+- System defined roles
 
+## Lecture 144: Account Admin
+- AccountAdmin role is the top level role
+- First user will have this role
+- Initial set up and managing account level object
+- Best practices
+  - Very controlled assignment of this role
+  - Multi-factor auth for all uses with this role
+  - At least two users with this role
+  - Avoid creating objects with this role unless you have to
 
+## Lecture 145: Account Admin in practice
+- What AccountAdmin can do
+- Reader account??
+- MFA with Duo App 
 
+## Lecture 146: SecurityAdmin
+- Access to Account admin tab with limited features available
 
+## Lecture 147: Security Admin in practice
+- Login as Frank with SECURITYADMIN role
+- This user can see USERADMIN and PUBLIC roles as well
+- Can't access Billing and Usage
 
+## Lecture 148: SysAdmin
+- Create and manage objects.
+- Custom roles should be assigned to sysadmin role
 
+## Lecture 149: SysAdmin in practice
+-
+
+## Lecture 150: Custom roles
+- Custom roles are created by Security Admin and assgined to SYSADMIN
+
+## Lecture 151: Custom roles in practice
+- 
+
+## Lecture 143: 
+
+## Lecture 143: 
+
+## Lecture 154: Public
+- Least priviliged role
+- Every user is automatically assigned this role
+- Can own objects
+
+## Lecture 143: 
+
+## Lecture 143: 
+
+## Lecture 143: 
 
 
 
